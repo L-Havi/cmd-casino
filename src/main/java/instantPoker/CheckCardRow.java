@@ -1,4 +1,4 @@
-package com.instantPokerCLI;
+package instantPoker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -193,7 +193,7 @@ public class CheckCardRow {
 				firstValue = card;
 			} else if(secondValue == 0 && card != 14) {
 				secondValue = card;
-			} else if (secondValue != card && firstValue != card && card != 14) {
+			} else if ((secondValue != card || firstValue != card) && card != 14) {
 				otherValueCount++;
 			}
 			if(otherValueCount > 1) {

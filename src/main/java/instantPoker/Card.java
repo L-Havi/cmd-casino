@@ -1,10 +1,12 @@
-package com.instantPokerCLI;
+package instantPoker;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+
+import AsciiArt.AllPlayingCards;
 
 public class Card {
 
@@ -39,10 +41,6 @@ public class Card {
 				i--;
 			}
 
-		}
-		
-		for(int k = 0; k < 20; k++) {
-			System.out.println();
 		}
 		
 		System.out.println("-----------------------------------");
@@ -239,6 +237,15 @@ public class Card {
 		while(largerThan13) {
 			if(decision > 13) {
 				decision -= 13;
+			} else {
+				largerThan13 = false;
+			}
+		}
+		
+		largerThan13 = true;
+		while(largerThan13) {
+			if(doubleValue > 13) {
+				doubleValue -= 13;
 			} else {
 				largerThan13 = false;
 			}

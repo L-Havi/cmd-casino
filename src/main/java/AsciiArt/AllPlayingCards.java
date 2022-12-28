@@ -1,4 +1,4 @@
-package com.instantPokerCLI;
+package AsciiArt;
 
 public class AllPlayingCards {
 
