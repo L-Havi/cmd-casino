@@ -198,7 +198,50 @@ public class Lottery {
 	}
 
 	private static void howToPlay() {
-		// TODO Auto-generated method stub
 		
+		boolean runInstructions = true;
+		
+		int pages = 1;
+		
+		while(runInstructions) {
+			System.out.println("-----------------------------------");
+			System.out.println("\tLottery");
+			System.out.println("-----------------------------------");
+			if(pages == 1) {
+				mainInstructions();
+			} else if(pages == 2) {
+				winTable();
+			} else if(pages == 3) {
+				runInstructions = false;
+			} 
+			System.out.println("1. How to Play\t2. Win Table");
+			System.out.println("3. Exit");
+			if(runInstructions) {
+				try {
+					pages = scanner.nextInt();
+				} catch(InputMismatchException ex) {
+					System.out.println("Please type valid input");
+				}
+			}
+		}
 	}
+
+	private static void winTable() {
+		System.out.println("\tWin Table\n");
+		System.out.println("Result\tWin");
+		System.out.println("7  \t1 000 000");
+		System.out.println("6+1\t100 000");
+		System.out.println("6  \t2 000");
+		System.out.println("5  \t50");
+		System.out.println("4  \t10");
+		System.out.println("3+1\t2\n");
+	}
+
+	private static void mainInstructions() {
+		System.out.println("\tHow to Play\n");
+		System.out.println("In the lottery, you choose 7 out of 40 game numbers or let the system generate the numbers.\n In the draw, 7 winning numbers and 1 additional number will be drawn.\n");
+		System.out.println("When seven of the 40 numbers in the Lotto are drawn, there are 18,643,560 different lottery \nlines possible. The odds of winning the jackpot are 1 out of 18,643,560. \nThe probability of achieving any winning result on a \nsingle line of play is about 1:49.\n");
+	}
+	
+	
 }
