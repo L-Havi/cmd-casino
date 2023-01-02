@@ -1,5 +1,5 @@
 # Command Line Casino
-Different casino games playable in Command Prompt / Console
+Different casino games playable in Command Prompt / Console.
 Both EXE file & JAR file are included in this repository's release
 
 Currently added games:
