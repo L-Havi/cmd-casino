@@ -14,6 +14,35 @@ Currently added games:
   
 Instant Poker, lottery & keno are based on Veikkaus Oy's games. Instant Poker is basically a port of PikaPokeri, which is Veikkaus Oy's video poker, lottery is based on Finnish lottery & Keno is based on Finnish Keno rules.
 
+##Running the Program
+
+###### EXE File
+
+1. Download EXE File from [Releases](https://github.com/L-Havi/cmd-casino/releases/tag/v1.0.0)
+
+2. Run the downloaded file from cmd.
+
+```
+cd <Folder containing executable>
+
+CommandLineCasino.exe
+```
+
+
+###### JAR File
+
+1. Download JAR File from [Releases](https://github.com/L-Havi/cmd-casino/releases/tag/v1.0.0)
+
+2. Run the downloaded file from cmd.
+
+```
+cd <Folder containing executable>
+
+java -jar CommandLineCasino.jar
+```
+
+#Games
+
 ## Instant Poker
 
 Instant Poker is basically a port of PikaPokeri, which is Veikkaus Oy's video poker but in command line form. The purpose of the game is to get the best possible poker hand. The hand is ready when its five cards are visible. The game uses a deck of 52 cards. In joker rounds, one joker card\n is added to the deck. In the basic game, the ace (A) is 1 or 14, depending on which is more favorable for the hand.
