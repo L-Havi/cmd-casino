@@ -23,7 +23,7 @@ Instant Poker, lottery & keno are based on Veikkaus Oy's games. Instant Poker is
 2. Run the downloaded file from cmd.
 
 ```
-cd <Folder containing executable>
+cd <Folder containing the executable>
 
 CommandLineCasino.exe
 ```
@@ -36,7 +36,7 @@ CommandLineCasino.exe
 2. Run the downloaded file from cmd.
 
 ```
-cd <Folder containing executable>
+cd <Folder containing the executable>
 
 java -jar CommandLineCasino.jar
 ```
