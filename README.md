@@ -12,6 +12,8 @@ Currently added games:
   7. Roulette
   8. Slots
   
+Instant Poker, lottery & keno are based on Veikkaus Oy's games. Instant Poker is basically a port of PikaPokeri, which is Veikkaus Oy's video poker, lottery is based on Finnish lottery & Keno is based on Finnish Keno rules.
+
 ## Instant Poker
 
 Instant Poker is basically a port of PikaPokeri, which is Veikkaus Oy's video poker but in command line form. The purpose of the game is to get the best possible poker hand. The hand is ready when its five cards are visible. The game uses a deck of 52 cards. In joker rounds, one joker card\n is added to the deck. In the basic game, the ace (A) is 1 or 14, depending on which is more favorable for the hand.
@@ -64,6 +66,3 @@ Get 2 symbols in a row to win bet * 2.
 Get 3 symbols in a row to win bet * 3.
 
 ![image](https://user-images.githubusercontent.com/72817588/210279466-80e0d27a-859c-4d02-82ec-10d868a9e0b5.png)
-
-
-Instant Poker, lottery & keno are based on Veikkaus Oy's games. Instant Poker is basically a port of PikaPokeri, which is Veikkaus Oy's video poker, lottery is based on Finnish lottery & Keno is based on Finnish Keno rules.
